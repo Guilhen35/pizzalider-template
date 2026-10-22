@@ -1,0 +1,10 @@
+{
+  "name": "pizzalider-template",
+  "private": true,
+  "scripts": {
+    "build": "esbuild src/app.jsx --outfile=app.js --minify --target=es2018 --jsx-factory=React.createElement --jsx-fragment=React.Fragment --loader:.jsx=jsx"
+  },
+  "devDependencies": {
+    "esbuild": "0.23.1"
+  }
+}
